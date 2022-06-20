@@ -573,11 +573,14 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-top: 72px;
+    margin-left: 70px;
     margin-bottom: 20px;
 }
 
 .conect-soc-list {
     display: flex;
+    margin-left: 70px;
 }
 
 
@@ -628,6 +631,12 @@ a {
 .contanier-soc {
     display: flex;
     align-items: center;
+
+}
+
+.footer .container {
+    display: flex;
+
 }
 
 /*-----------портфолио кнопки------*/
