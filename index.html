@@ -65,7 +65,7 @@
     <section class="advertising">
         <div class="container">
             <h1 class="advertising-name">Эффективные решения для вашего бизнеса</h1>
-            <button type="button"  class="color-btn">Заказать услугу</button>
+            <button type="button"  class="color-btn" data-modal-open>Заказать услугу</button>
             </div>
         </section>
     </main>
@@ -315,5 +315,13 @@
         </ul></div>
     </div>
 </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-btn" data-modal-close><svg width="20" height="20">
+                    <use href="./imeges/icons-close.svg#icon-close"></use>
+                </svg></button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
